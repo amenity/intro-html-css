@@ -1,0 +1,93 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   /*shorthand for background: background: color image  image-repeat vertical-position horizontal-position; */
+   background: #302A28;
+}
+
+/* Layout */
+
+#wrapper {
+	width: 90%;
+	margin: 10% auto;
+	border: 2px dotted white;
+	padding: 2%;
+
+}
+
+.section {
+	padding: 1em 1em 1em 4em;
+}
+
+.img-wrapper {
+	position: relative;
+	z-index: 0;
+}
+
+h4.caption {
+	position: absolute;
+	top:20px;
+	right: -20px;
+	background-color: #302A28; 
+	padding: 1em;
+	box-shadow: 1px 1px 4px #fccbba; 
+}
+
+img {
+	width:50%;
+	float: right;
+}
+
+p {
+	width: 40%;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, p, li {
+   color: #fccbba;
+}
+h1 {
+	color: #c5fcef;
+	font-size: 4em;
+	font-weight: 100;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.5em;
+   	font-weight: 400;
+}
+
+h3 {
+	color: #c5fcef;
+	text-transform: uppercase;
+	font-size: 2em;
+	border-bottom: 1px solid white;
+	clear:right;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 0 0 2em;
+}
+
+p, li{
+   font-weight: 300;
+   font-size: 2em;
+}
+
+a {
+	color: #ffa78c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+span.breed {
+	font-style: italic;
+}
+
+

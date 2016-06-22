@@ -2,11 +2,24 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Girl Develop It Chicago</title>
+  <title>Girl Develop It</title>
   <head>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
     <link href="https://s3.amazonaws.com/gdichicago-cdn/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
     <link href="https://s3.amazonaws.com/gdichicago-cdn/stylesheets/main.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+      article ul li:before{
+      content: '•';
+      color: #f25c65;
+      }
+      header a:before {
+      content: '';
+      padding: 0;
+      } 
+      h4 {font-variant: small-caps;
+      }
+
+    </style>
 </head>
 <body>
   <header>
@@ -14,20 +27,26 @@
       <div class="pure-u-1-5"></div>
       <div class="pure-u-3-5">
 
-
-
         <!-- HEADER -->
-        <h1>Girl Develop It Chicago</h1>
+        <h1>Girl Develop It</h1>
         <h2>Introduction to HTML/CSS</h2>
 
 
         <!-- MENU -->
         <nav>
           <h3>
-            <a href="#materials">Class materials</a>
-            <a href="#resources">Resources</a>
-            <a href="#code">Code samples</a>
-            <a href="http://www.meetup.com/Girl-Develop-It-Chicago-IL/">Meetup.com</a>
+          <ul>
+            <li><h4><a href="#materials">Class materials</a></h4></li>
+
+            <li><h4><a href="#resources">Resources</a></h4></li>
+
+            <li><h4><a href="#code">Code samples</a></h4></li>
+
+            <li><h4><a href="#accessibility">Accessibility</a></h4></li>
+
+            <li><h4><a href="http://www.meetup.com/Girl-Develop-It-Austin/">Girl Develop It Austin on Meetup.com</a></h4></li>
+
+          </ul>
           </h3>
         </nav>
       </div>
@@ -49,93 +68,112 @@
         <!-- CLASS MATERIALS -->
         <article>
           <a name="materials"></a><h1>Class materials</h1>
-          <h2>Slides<!--: Single Day or Two Part Workshop--></h2>
           <ul>
             <li><a href="slides/intensive/session1.html">Session 1: Intro to HTML and CSS</a></li>
+            
             <li><a href="slides/intensive/session2.html">Session 2: Divs, The Box Model, Floats, Positioning</a></li>
+
+            <li>Sites instructed in class: <a href="http://amenityapplewhite.com/GDI/intro-html-css/day1bacon/">Day 1</a> & <a href="http://amenityapplewhite.com/GDI/intro-html-css/day2dogs/">Day 2</a></li>
           </ul>
         </article>
-
-
-
 
         <!-- RESOURCES -->
         <article>
           <a name="resources"></a><h1>Resources</h1>
           <h2>HTML</h2>
           <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla HTML Documentation</a></li>
             <li><a href="http://htmlandcssbook.com/extras/html-escape-codes/">HTML Character Codes</a></li>
-          </ul>
-          <ul>
             <li><a href="http://www.w3schools.com/html/default.asp">HTML Reference</a></li>
           </ul>
 
           <h2>CSS</h2>
           <ul>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Properties</a></li>
-          </ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla CSS Documentation</a></li>
+
+            <li><a href="http://howtocenterincss.com/">How to Center in CSS</a></li>
           <ul>
             <li><a href="http://www.webdesigndev.com/web-development/16-gorgeous-web-safe-fonts-to-use-with-css">Web-safe Fonts</a></li>
           </ul>
-          
-          <h2>HTML & CSS</h2>
+
+          <h2>Fonts</h2>
           <ul>
-            <li><a href="https://www.codeschool.com/courses/front-end-foundations">Code School's free HTML & CSS courses</a></li>
+            <li><a href="https://fonts.google.com/">Google Fonts</a>: Free to use, copy and paste code for doing so</li>
+            
+            <li><a href="http://www.webdesigndev.com/web-development/16-gorgeous-web-safe-fonts-to-use-with-css">Web-safe Fonts</a></li>
+            
+            <li><a href="http://hwdesignco.com/publications">Jason Pamental's Blog on Responsive Typography</a></li>
+            
+            <li><a href="http://shop.oreilly.com/product/0636920034063.do">Jason Pamental's Book h<em>Responsive Typography - Using Type Well on the Web</em></a>: Awesome reference with current techniques and best practices</li>
           </ul>
-          <ul>
-            <li><a href="http://www.w3schools.com/html/default.asp">HTML Reference</a></li>
-          </ul>
+
           <h2>Tutorials</h2>
           <ul>
             <li><a href="http://www.codecademy.com/tracks/web">Codeacademy HTML/CSS</a></li>
-          </ul>
-          <ul>
+
             <li><a href="https://www.codeschool.com/courses/front-end-foundations">Code School's free HTML & CSS courses</a></li>
-          </ul>
-          <ul>
+
             <li><a href="http://teamtreehouse.com/">Treehouse</a></li>
-          </ul>
-          <ul>
+
             <li><a href="http://css.maxdesign.com.au/floatutorial/">Float Tutorial</a>: walks through how to use the css float property</li>
-          </ul> 
-          <ul>
             <li><a href="http://hackdesign.org/lessons">Hack Design</a>: a set of free 'lessons' if you want to learn more about design</li>
           </ul>
-
-          <h2>Tools</h2>
-          <ul>
-            <li><a href="http://mashable.com/2013/07/11/lorem-ipsum/">Lorem Ipsum (text) generators</a></li>
-          </ul>
+          <h2>Colors</h2>
           <ul>
             <li><a href="http://www.colorpicker.com/">Basic Color Picker</a></li>
-          </ul>          
-          <ul>
+
+            <li><a href="http://htmlcolorcodes.com/color-picker/">Pretty Color Picker</a></li>
+
             <li><a href="http://colorschemedesigner.com/">Color Scheme Designer</a></li>
+          </ul>
+
+          <h2>Software & Tools</h2>
+          <ul>
+            <li><a href="https://www.sublimetext.com/">Sublime Text</a>: Forever free but amazing tool you'll use for years (so consider purchasing)</li>
+
+            <li><a href="https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software">FTP software to upload to the web</a></li>
+
+            <li><a href="http://mashable.com/2013/07/11/lorem-ipsum/">Lorem Ipsum (text) generators</a></li>
           </ul>
 
           <h2>Other Awesome Things</h2>
           <ul>
             <li><a href="http://tympanus.net/codrops/">Codrops</a>: cool site with intermediate/advanced CSS tricks and demos</li>
-          </ul>
-          <ul>
+
             <li><a href="http://skillcrush.com/blog/">Skillcrush Blog</a>: an awesome women-oriented tech site</li>
-          </ul>
-          <ul>
+
             <li><a href="http://css-tricks.com/">CSS Tricks</a>: great site with good articles to explain all things CSS including the basics</li>
-          </ul>         
-          <ul>
+
             <li><a href="http://codepen.io/search/pens?q=pure%20html%20css&limit=all&order=popularity&depth=everything&show_forks=false">Pure HTML & CSS on CodePen</a>: Fun examples where you can easily play with the code</li>
-          </ul>
-          <ul>
+
             <li><a href="http://marketblog.envato.com/whats-hot/pure-css-animation-snippets/">A Collection of Pure CSS Animation Snippets & Demos</li>
-          </ul>
-          <ul>
+
             <li><a href="http://tympanus.net/codrops/tag/template/">Codrops HTML templates</a>: a nice starting point for new sites</li>
+            <li><a href="http://www.favicon-generator.org/">Favicon generator</a></li>
           </ul>
         </article>
 
+        <!-- ACESSIBILITY -->
+        <article>
+          <a name="accessibility"></a><h1>Accessibility</h1>  
+          <ul>
+            <li><a hef="http://webaim.org/resources/contrastchecker/">WebAIM Color Contrast Checker</a></li>
+
+            <li><a href="http://dasplankton.de/ContrastA/">Contrast-A</a>: Find accessible color combinations</li>
+
+            <li><a href="https://www.w3.org/WAI/WCAG20/quickref/">WCAG 2.0 quick ref</a></li>
+
+            <li><a href="http://www.deque.com/products/aXe/">aXe a11y checker for Chrome:</a></li>
+
+            <li><a href="https://www.w3.org/WAI/perspectives/">a11y perspectives videos</a></li>
+
+            <li><a href="https://www.w3.org/WAI/tutorials/">WAI tutorials</a></li>
+
+            <li><a href="http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile">BBC mobile a11y guidelines</a></li>
+          </ul>
+        </article>  
+
         <!-- CODE SAMPLES -->
-        <!-- EMBEDDED GISTS -->
         <article>
           <a name="code"></a><h1>Code samples</h1>
             <h2>Head and Body Tags</h2>
@@ -163,49 +201,29 @@
             <script src="https://gist.github.com/kexline4710/9701578.js"></script>
         </article>
 
-
-
-
-        <!-- DISQUS COMMENTS SECTION -->
+        <!-- Help -->
         <article>
-          <h1>Discussion</h1>
-          <p>
-            Stuck? Need help? Have another resource? Leave a note here!
-          </p>
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-              var disqus_shortname = 'gdichicago'; // required: replace example with your forum shortname
-
-              /* * * DON'T EDIT BELOW THIS LINE * * */
-              (function() {
-                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-              })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          <h1>Help</h1>
+          <ul>
+            <li><a href="http://stackoverflow.com/"></a>StackOverflow</li>
+            
+            <li><a href="mailto:amenityapplewhite@gmail.com">Email Amenity</a></li>
+          </ul>
         </article>
-      </section>
-
-
-
-
-        <!-- FOOTER -->
+          
+      <!-- FOOTER -->
       <footer>
         <p>
           <a href="http://girldevelopit.com"><img src="https://s3.amazonaws.com/gdichicago-cdn/images/logo.png" width="300px"></a>
         </p>
         <p>
-          Created and maintained by <a href="http://twitter.com/feministy">Liz Abinante</a> and <a href="https://github.com/kexline4710/">Katy Exline</a> of <a href="http://gdichicago.com">Girl Develop It Chicago</a>.
+          Based on a site created and maintained by <a href="http://twitter.com/feministy">Liz Abinante</a> and <a href="https://github.com/kexline4710/">Katy Exline</a> of <a href="http://gdichicago.com">Girl Develop It Chicago</a>.
         </p>
-      </footer>
-    </div>
-    <div class="pure-u-1-5"></div>
-  </div>
+        <p>
+          Modified by <a href="https://twitter.com/amenity">Amenity Applewhite</a> for <a href="https://www.girldevelopit.com/chapters/austin">Girl Develop It Austin</a>.
+        </p>
 
-  <script type="text/javascript" src="//use.typekit.net/inx7vdr.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+      </footer>
+
 </body>
 </html>
